@@ -1,3 +1,8 @@
 //your JS code here. If required.
-let dom= document.querySelector(".Dom");
-dom.innerText("DOM load success");
+document.addEventListener("DOMContentLoaded", display)
+
+
+function display() {
+	let text= document.innerText("DOM load success")
+	document.append(text)
+}
